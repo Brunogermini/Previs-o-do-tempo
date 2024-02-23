@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1535747790212-30c585ab4867?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcwODYzNjk5OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.conateiner{
+
+background-color: #93b4db;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: rgb(0, 0, 0, .24) 10px 20px 6px;
+color: black;
+max-width: 400px;
+opacity: .9;
+}
+
+.container-form h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+}
+
+.form {
+    display: flex;
+}
+
+.form input{
+border: none;
+padding: 15px;
+border-radius: 5px;
+flex: 1;
+font-size: 1.3rem;
+font-family: "Roboto";
+}
+
+.form button{
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    min-width: 50px;
+    background-color: #8dd0f5;
+    color: #fff
+}
+
+
+.container-cidade{
+    margin-top: 1.5rem;
+    border-top: 2px solid #fff;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+.container-cidade h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+    font-family: "Ubuntu";
+}
+
+
+.container-cidade #cidade{
+    margin: 0.6rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+#pais{
+    height: 26px;
+}
+
+#temperatura{
+    margin-bottom: .6rem;
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.container-descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: .6rem 0;
+}
+
+.container-descricao p{
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+
+.container-descricao img{
+    width: 50px;
+}
+
+.container-detalhes{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#umidade{
+    border-right: 3px solid #fff;
+    margin: 0.8rem;
+    padding: 0.6rem;
+}
+
+.hide{
+    display: none;
+}
+
+
+#error-message{
+    border-top: 2px solid #fff;
+    padding-top:1rem ;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
